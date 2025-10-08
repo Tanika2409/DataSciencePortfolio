@@ -1,4 +1,4 @@
-# 🧠 Data Science Mini Projects Portfolio
+# Data Science Mini Projects Portfolio
 
 A collection of beginner-to-intermediate machine learning and data analysis projects completed in Google Colab.  
 Each project demonstrates practical data cleaning, visualization, and model-building skills.
@@ -64,4 +64,9 @@ Each project demonstrates practical data cleaning, visualization, and model-buil
     !chmod 600 ~/.kaggle/kaggle.json
 5. You can now use the Kaggle API to download datasets in any notebook.
 
+Notes
+
+- Each notebook is fully commented and includes visualizations.
+- All datasets come from publicly available Kaggle sources.
+- For demonstration purposes, smaller subsets of large datasets may be used in Colab.
    
