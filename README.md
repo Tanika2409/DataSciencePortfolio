@@ -66,6 +66,17 @@ Each project demonstrates practical data cleaning, visualization, and model-buil
 
 ---
 
+## Results Summary
+
+| **Project**                           | **Model(s) Used**                                                            | **Best Accuracy / Score**             | **Key Insights**                                                                                                                                |
+| ------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Titanic Survivability Prediction**  | Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors (KNN) | **Random Forest – 82% accuracy**      | Sex, Fare, and Age were the strongest predictors of survival. Random Forest slightly outperformed other models.                                 |
+| **House Prices Prediction**           | Linear Regression, Random Forest                                             | **Random Forest – RMSE ≈ 30 000**         | Random Forest captured non-linear relationships better than Linear Regression. Living Area and Overall Quality were the top predictors.         |
+| **Mall Customers Segmentation**       | K-Means Clustering                                                           | **5 optimal clusters (Elbow Method)** | Segments formed around combinations of Income and Spending Score, identifying high-value and budget-conscious customer groups.                  |
+| **Airline Tweets Sentiment Analysis** | Hugging Face DistilBERT Transformer                                          | **Accuracy ≈ 76% on test set**        | Model effectively classified sentiments (Positive, Neutral, Negative). Most tweets were Negative, focusing on service delays and cancellations. |
+
+---
+
 ## Notes
 
 - Each notebook is fully commented and includes visualizations.
